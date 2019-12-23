@@ -3,11 +3,11 @@
   display_name: Test Project
   sub_title: Testing
   project_url: "https://github.com/crosscloudci/testproj"
-  stable_ref: "v0.0.4"
+  stable_ref: "v0.0.7"
   head_ref: "master"
   ci_system:
     -
-      ci_system_type: "travis-ci"
+      ci_system_type: "circle-ci"
       ci_project_url: "https://example.com/cncfci/testproj"  # can be anything for citest
       ci_project_name: "crosscloudci/testproj"
       arch:
